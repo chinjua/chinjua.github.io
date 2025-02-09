@@ -1,9 +1,8 @@
-
 @font-face {
   font-family: "zm"; /* Project id 1626010 */
-  src: url('//at.alicdn.com/t/c/font_1626010_d5qb3iyi5p7.woff2?t=1738871984999') format('woff2'),
-       url('//at.alicdn.com/t/c/font_1626010_d5qb3iyi5p7.woff?t=1738871984999') format('woff'),
-       url('//at.alicdn.com/t/c/font_1626010_d5qb3iyi5p7.ttf?t=1738871984999') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_1626010_itvdfe9w1ko.woff2?t=1739113340638') format('woff2'),
+       url('//at.alicdn.com/t/c/font_1626010_itvdfe9w1ko.woff?t=1739113340638') format('woff'),
+       url('//at.alicdn.com/t/c/font_1626010_itvdfe9w1ko.ttf?t=1739113340638') format('truetype');
 }
 
 .zm {
@@ -12,6 +11,30 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.zm--Email:before {
+  content: "\e73f";
+}
+
+.zm-wodeye_diqu:before {
+  content: "\e64c";
+}
+
+.zm-riqi:before {
+  content: "\e66b";
+}
+
+.zm-xingbie:before {
+  content: "\f0a5";
+}
+
+.zm-nicheng:before {
+  content: "\e835";
+}
+
+.zm-ziliao:before {
+  content: "\e630";
 }
 
 .zm-yinle1:before {
