@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chinjua.com.cn/2025-02-07/c19782db.html</loc>
+    
+    <lastmod>2025-02-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chinjua.com.cn/404/index.html</loc>
     
     <lastmod>2025-02-11</lastmod>
@@ -32,15 +41,6 @@
     <loc>https://www.chinjua.com.cn/playlist/index.html</loc>
     
     <lastmod>2025-02-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chinjua.com.cn/2025-02-07/c19782db.html</loc>
-    
-    <lastmod>2025-02-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
