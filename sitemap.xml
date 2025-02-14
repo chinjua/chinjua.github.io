@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chinjua.com.cn/2025-02-14/613af252.html</loc>
+    
+    <lastmod>2025-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chinjua.com.cn/gallery/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C/index.html</loc>
+    
+    <lastmod>2025-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chinjua.com.cn/2025-02-14/9397d2f2.html</loc>
     
     <lastmod>2025-02-14</lastmod>
@@ -155,15 +173,6 @@
   </url>
   
   <url>
-    <loc>https://www.chinjua.com.cn/gallery/%E5%A4%A7%E5%B9%B4%E5%88%9D%E4%BA%8C/index.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chinjua.com.cn/gallery/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%EF%BC%81/index.html</loc>
     
     <lastmod>2025-01-30</lastmod>
@@ -244,6 +253,13 @@
   
   <url>
     <loc>https://www.chinjua.com.cn/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
+    <lastmod>2025-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chinjua.com.cn/tags/%E5%85%83%E5%AE%B5%E8%8A%82/</loc>
     <lastmod>2025-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
