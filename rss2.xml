@@ -15,7 +15,7 @@
     <atom:link href="https://www.chinjua.com.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 23 Feb 2025 15:32:36 GMT</pubDate>
+    <pubDate>Sun, 23 Feb 2025 15:49:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -40,7 +40,7 @@
 &lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;软件的其他参数保持默认即可，其他参数很少能用到&lt;/font&gt;&lt;/p&gt;
 &lt;h1 id=&quot;五、如何打开-uvz格式的文件&quot;&gt;&lt;a href=&quot;#五、如何打开-uvz格式的文件&quot; class=&quot;headerlink&quot; title=&quot;五、如何打开.uvz格式的文件&quot;&gt;&lt;/a&gt;五、如何打开.uvz格式的文件&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;不需要下载专用的阅读器，也不用修改文件后缀。&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;uvz实际上是一种压缩包格式，只要在文件上右击鼠标，打开方式选择你电脑上的解压缩软件，就能解压出来了，然后用pdg2pic软件转换成pdf&lt;/font&gt;&lt;/p&gt;
 &lt;h1 id=&quot;六、如何将书签折叠起来&quot;&gt;&lt;a href=&quot;#六、如何将书签折叠起来&quot; class=&quot;headerlink&quot; title=&quot;六、如何将书签折叠起来&quot;&gt;&lt;/a&gt;六、如何将书签折叠起来&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如图，我们在pdf 文件内可看到，书签目录是展开的，如果这本书有很多章节标题，要寻找某章某节的内容，比较不方便，此时可通过设置，将书签目录全部折叠起来&lt;/font&gt;&lt;br&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/02/21/pEQxrVg.png&quot; alt=&quot;书签展开&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/02/21/pEQzI6P.png&quot; alt=&quot;PDF选项&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;将pdf文件拖入PdgCntEditor，点击PdgCntEditor里的&lt;img src=&quot;https://s21.ax1x.com/2025/02/21/pElS3hd.png&quot; alt=&quot;122&quot;&gt;图标，将“展开所有目录”前面的勾去掉，点击“确定”按钮，按“Ctrl+S”键保存书签，此时打开pdf文件，可看到书签目录已经全部折叠起来&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;将pdf文件拖入PdgCntEditor，点击PdgCntEditor里的&lt;img class=&quot;inline-img&quot; src=&quot;https://s21.ax1x.com/2025/02/21/pElS3hd.png&quot; style=&quot;height:25px&quot; /&gt;图标，将“展开所有目录”前面的勾去掉，点击“确定”按钮，按“Ctrl+S”键保存书签，此时打开pdf文件，可看到书签目录已经全部折叠起来&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/02/21/pEQxgGn.png&quot; alt=&quot;书签折叠&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;七、书签获取器&quot;&gt;&lt;a href=&quot;#七、书签获取器&quot; class=&quot;headerlink&quot; title=&quot;七、书签获取器&quot;&gt;&lt;/a&gt;七、书签获取器&lt;/h1&gt;&lt;h2 id=&quot;1-无法保存书签&quot;&gt;&lt;a href=&quot;#1-无法保存书签&quot; class=&quot;headerlink&quot; title=&quot;(1)无法保存书签&quot;&gt;&lt;/a&gt;(1)无法保存书签&lt;/h2&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;按“Ctrl+S”键保存书签，如果提示“存储失败”，关闭pdf 文件，再按一次“Ctrl+S”键即可成功保存&lt;/font&gt;&lt;/p&gt;
 &lt;h2 id=&quot;2-书签出现乱码&quot;&gt;&lt;a href=&quot;#2-书签出现乱码&quot; class=&quot;headerlink&quot; title=&quot;(2)书签出现乱码&quot;&gt;&lt;/a&gt;(2)书签出现乱码&lt;/h2&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;上文中提到，书签文本如果含有多余的空格，排版书签会导致文本出现乱码&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如图，刚获取到的书签文本，每一行的标题左边出现了多余的空格，导致标题左边没有对齐，也就是每行的数字序号没有对齐&lt;/font&gt;&lt;br&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/02/20/pEQczE4.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/02/20/pEQcjDU.md.png&quot; alt=&quot;2&quot;&gt;&lt;/p&gt;
