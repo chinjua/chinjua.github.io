@@ -15,8 +15,393 @@
     <atom:link href="https://www.chinjua.com.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 07 Mar 2025 16:00:37 GMT</pubDate>
+    <pubDate>Fri, 14 Mar 2025 07:44:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>电子书资源的处理流程(3)</title>
+      <link>https://www.chinjua.com.cn/2025-03-14/d63e661b.html</link>
+      <guid>https://www.chinjua.com.cn/2025-03-14/d63e661b.html</guid>
+      <pubDate>Fri, 14 Mar 2025 07:45:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1&gt;一、如何打开djvu格式的电子书&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;有两款阅读器软件支持djvu格式&lt;/font&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-WinDjView软件&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-WinDjView软件&quot;&gt;&lt;/a&gt;(1)WinDjView软件&lt;/h2&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;进入WinDjView软件&lt;/font&gt;&lt;a class=&quot;btn-beautify green&quot; href=&quot;https://windjview.en.softonic.com/&quot; title=&quot;官网&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;官网&lt;/span&gt;&lt;/a&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;下载安装WinDjView软件即可&lt;/font&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-SumatraPDF软件&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-SumatraPDF软件&quot;&gt;&lt;/a&gt;(2)SumatraPDF软件&lt;/h2&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;进入SumatraPDF软件&lt;/font&gt;&lt;a class=&quot;btn-beautify green&quot; href=&quot;https://www.sumatrapdfreader.org/download-free-pdf-viewer&quot; title=&quot;官网&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;官网&lt;/span&gt;&lt;/a&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;下载安装SumatraPDF软件即可&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;djvu格式的电子书，体积都比pdf 格式的电子书更加小巧，并且清晰度高，不一定要转换成pdf格式&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;WinDjView软件可将djvu格式转换为pdf格式&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;二、关于“批量解压小助手”软件的说明&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;“批量解压小助手”软件的原理是使用内置的300多个密码，逐个尝试解压压缩包，若压缩包的密码不在软件内，则无法解压&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如果要往软件内添加新密码，直接在输入框内输入即可，软件会自动保存新密码。所有密码均自动保存于软件目录内的password.txt文件内，无需手动保存&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;三、不规则形式命名的pdg文件&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;一般常见的电子书压缩包，里面的文件命名都是有规律的，比如正文页：&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;000001.pdg&lt;/li&gt;
+&lt;li&gt;000002.pdg&lt;/li&gt;
+&lt;li&gt;000003.pdg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;文件名都是6位数，按数字大小依次命名&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;有些压缩包内文件的命名比较特别，看不出其中的规律，以《中阿关系史_11432450》这本书为例，部分文件名如下：&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1_3.pdg&lt;/li&gt;
+&lt;li&gt;4_2.pdg&lt;/li&gt;
+&lt;li&gt;6_1.pdg&lt;/li&gt;
+&lt;li&gt;40_3.pdg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;pdg2pic软件无法导入这些pdg文件&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/08/pEto9L8.png&quot; alt=&quot;pdg2pic&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;那么如何转换成pdf文件呢？&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;点击pdg2pic软件内的&lt;img class=&quot;inline-img&quot; src=&quot;https://s21.ax1x.com/2025/03/08/pEtomQ0.png&quot; style=&quot;height:25px&quot; /&gt;图标，弹出“处理文本PDG”对话框，点击&lt;img class=&quot;inline-img&quot; src=&quot;https://s21.ax1x.com/2025/03/08/pEto8Y9.png&quot; style=&quot;height:25px&quot; /&gt;图标，选择“中阿关系史_11432450”文件夹&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/08/pEtoYS1.png&quot; alt=&quot;处理文本PDG&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;点击“开始”按钮，即可转换为pdf文件&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtog6P.png&quot; alt=&quot;pdf&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;软件将这些pdg文件转换成了多个pdf，使用acrobat软件将这些文件合并成为一个pdf即可&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;四、不要在pdg2pic软件内取消选中文件&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;比如我不想将书名页bok001.pdg转换进pdf文件内，于是我在pdg2pic软件里，取消了bok001.pdg文件前面的勾，然后转换格式&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtT9pR.png&quot; alt=&quot;1&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;此时转换出来的pdf文件，页码格式混乱，点击书签无法跳转到正确的页面上&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;正确的做法是，进入文件夹内删除bok001.pdg文件，在pdg2pic软件内重新导入文件夹，然后转换格式&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;五、前言页的书签&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;默认情况下，前言页的书签显示的是“前言”，如下图&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtTmhd.png&quot; alt=&quot;书签&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如果前言页里有作者简介，内容简介，在书签里添加“作者简介”，“内容简介”，可以方便读者了解作者其人和书籍的大致内容&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtTK1I.png&quot; alt=&quot;书签1&quot;&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;一些理工科类的书籍，在前言页里有符号表，在书签里添加“符号表”，方便读者查询符号的说明&lt;/font&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtT8HS.png&quot; alt=&quot;书签2&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/09/pEtTthj.png&quot; alt=&quot;符号表&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;六、简体中文与繁体中文间的转换&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;点击PdgCntEditor软件的&lt;img class=&quot;inline-img&quot; src=&quot;https://s21.ax1x.com/2025/03/13/pEUbKjs.png&quot; style=&quot;height:24px&quot; /&gt;图标，选中“简体-&amp;gt;繁体”，点击“确定”按钮，即可将书签目录由简体中文转换为繁体中文&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUb8EV.png&quot; alt=&quot;繁体&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;七、检查页码是否正确&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;以《中国城市地理(顾朝林)_11262230》为例，如下图，标题&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一篇  城市起源与发展过程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;的页码原本为第1页，但是我们下载下来的书签文本，显示的页码是2。后面的“第2篇”，“第3篇”页码都是如此，我们手动修改一下页码即可&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/14/pEa9J10.png&quot; alt=&quot;页码&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;像这种页码出错的问题，在2010年以前出版的书中很常见，不修改的话对书签目录的使用影响不大。&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一篇  城市起源与发展过程&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一章  中国城市起源与产生&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如果2行标题之间有正文内容，不修改页码的话，这些正文内容很容易被人忽略掉，对书籍阅读可能会产生影响&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;八、上下册书籍的页码格式&lt;/h1&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;有一些书籍分为上下2册，并且下册书的页码，并不是从第1页开始的，而是从上册书页码延续下来。这类书需要对页码格式进行一些处理，才能在点击书签的时候，正确跳转页面&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;以《李宗仁回忆录：2005版》上下册为例&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;上册书正文的页码，从1到442页，下册为445到850页&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;首先将下册书的书签，粘贴进PdgCntEditor，保存书签后，关闭并重新运行PdgCntEditor，将pdf重新拖入PdgCntEditor&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/12/pEUGv7Q.png&quot; alt=&quot;书签&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;此时我们看到，PdgCntEditor软件内的正文页码全部消失不见，在pdf 文件内点击正文的书签，没有任何反应&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/12/pEUJnhR.png&quot; alt=&quot;书签1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;出现这种情况是因为，pdf的页码格式，是从1到406页，而书签目录是从445到850页，页码格式跟书签的页码没有一一对应&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/12/pEUJg4s.png&quot; alt=&quot;页码格式&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如何设置页码格式？&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;在acrobat软件内打开pdf 文件，在软件右侧点击文档处理——编排页码。选中“从(F)”，页码从1到429&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;样式选择“1,2,3…”，“起始”输入正文页的起始页码，也就是445&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;点击“确定”按钮，按“Ctrl+S”键保存文件&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUotO0.png&quot; alt=&quot;编排页码&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;此时双击打开pdf文件，可看到正文的页码格式，是从445到850，与正文页码一致&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUo0kF.png&quot; alt=&quot;页码格式1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;将pdf 拖入PdgCntEditor，可看到文件的页码格式已被重置，从封面页开始计数，封面页为第1页，正文第1页页码为24&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUTSpj.png&quot; alt=&quot;页码格式2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;将书签文本黏贴进去，书籍正文的起始页码为445，我们应确保书签目录的起始页码，与正文起始页码相同，也就是445&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;现在我们重新设置书签的页码，使得书签的页码起始为24&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;445-24=421，我们需要将正文的页码，减小421&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUbZ4S.png&quot; alt=&quot;页码格式3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;将正文书签全部选中，点击&lt;img class=&quot;inline-img&quot; src=&quot;https://s21.ax1x.com/2025/03/13/pEUHUmt.png&quot; style=&quot;height:22px&quot; /&gt;图标，将“页码增减”对话框内容修改为“-”“421”，点击“确定”按钮&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUHspQ.png&quot; alt=&quot;页码增减&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;https://s21.ax1x.com/2025/03/13/pEUHylj.png&quot; alt=&quot;页码格式4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;现在正文的页码格式，由24页起始&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;按“Ctrl+S”键保存书签，在pdf</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.chinjua.com.cn/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
+      
+      
+      <category domain="https://www.chinjua.com.cn/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
+      
+      
+      <comments>https://www.chinjua.com.cn/2025-03-14/d63e661b.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>2025-03-14  新增电子书</title>
+      <link>https://www.chinjua.com.cn/2025-03-14/63295c7f.html</link>
+      <guid>https://www.chinjua.com.cn/2025-03-14/63295c7f.html</guid>
+      <pubDate>Fri, 14 Mar 2025 07:44:33 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/d/7823036-11625293-1def83?p=750732&quot; title=&quot;网盘总入口&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;网盘总入口&lt;/span&gt;&lt;/a&gt;&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/f/7823036-1469970934-60e215?p=750732&quot; title=&quot;电子书书目2025-3-14&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;电子书书目2025-3-14&lt;/span&gt;&lt;/a&gt;&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt;文件访问密码: 750732&lt;/font&gt;&lt;/p&gt;
+&lt;h1&gt;B  哲学、宗教&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468681385-d440fb?p=750732&gt;儒学复兴：继绝与再生(任重)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;B2  中国哲学&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;    
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;2&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469033860-1ec1fc?p=750732&gt;中国辟邪文化大观：上册(郑晓江)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;B99  术数、迷信&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;C  社会科学总论&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469963722-c1cf0f?p=750732&gt;亲密：广受欢迎的人气心理学[美]尼尔森&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;C912  社会结构和社会关系&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;D  政治、法律&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469633959-4da340?p=750732&gt;日本民法典：2017年大修改&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;D93  亚洲各国法律&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;F  经济&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468684007-933d64?p=750732&gt;大行蝶变：中国大型银行复兴之路(潘功胜)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F832  中国金融、银行&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;2&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469017039-06f6e4?p=750732&gt;理解当代中国马克思主义政治经济学(荣兆梓)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F0-0  马克思主义政治经济学(总论)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;3&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469019172-6c08d1?p=750732&gt;公司财务理论(王斌)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F276  各种企业经济&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;4&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469131420-4b3a16?p=750732&gt;房地产企业会计实务示范手册(杨爱义)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F29  城市经济、房地产经济&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;5&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469248042-634b33?p=750732&gt;利息理论&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F03  资本主义社会生产方式&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;6&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469250154-fce39c?p=750732&gt;利息理论(李勇权)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F03  资本主义社会生产方式&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;7&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469251267-6a75d3?p=750732&gt;利息理论(张连增)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F03  资本主义社会生产方式&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;8&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469253664-917fc4?p=750732&gt;利息理论(刘占国)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F03  资本主义社会生产方式&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;9&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469257585-d4f47e?p=750732&gt;纯时间偏好利息理论[美]赫伯纳&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F03  资本主义社会生产方式&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;10&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469262595-c37f79?p=750732&gt;精算管理&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F224  经济数学方法&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;11&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469264068-f071d9?p=750732&gt;中国精算师精算管理过关必做习题集：含历年真题&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F224  经济数学方法&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;12&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469269012-94acd7?p=750732&gt;精算管理控制系统&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F224  经济数学方法&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;13&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469273116-2fdfba?p=750732&gt;英汉精算学词汇：第2版(谢志刚)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F224  经济数学方法&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;14&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469273419-42658b?p=750732&gt;英汉精算学词汇：第1版(谢志刚)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;F224  经济数学方法&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;G  文化、科学、教育、体育&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468696454-b1aeb5?p=750732&gt;博士生教育与未来的教师[美]埃伦伯格&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;G643  研究生教育&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;H  语言、文字&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469013259-652a20?p=750732&gt;新编英语教程第3版06：学生用书&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;H3  常用外国语/英语&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;I  文学&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468428052-e72481?p=750732&gt;恶魔预知死亡[美]布洛克&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;I712  美国文学&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;2&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468429789-6963c5?p=750732&gt;死亡的渴望[美]布洛克&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;I712  美国文学&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;3&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468433935-75d921?p=750732&gt;死亡工作室[英]泰勒&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;I561  英国文学&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;4&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468455061-424413?p=750732&gt;死亡线上的感悟(刘埃林)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;I267  当代作品&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;J  艺术&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468693190-89c6a2?p=750732&gt;身体图景：艺术、现代性与理想形体&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;J06  造型艺术理论&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;K  历史、地理&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469413336-330ad9?p=750732&gt;李宗仁回忆录：2005版上册&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;K827  社会政治人物传&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;2&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469414965-5333de?p=750732&gt;李宗仁回忆录：2005版下册&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;K827  社会政治人物传&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;3&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469426956-f71405?p=750732&gt;蒋氏秘档与蒋介石真相(杨天石)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;K827  社会政治人物传&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;R  医药、卫生&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1468431844-71765a?p=750732&gt;如何降低围手术期死亡率：原著第2版[意]兰多尼&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;R619  手术前后的处理及外科并发症&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1&gt;U  交通运输&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr bgcolor=#b0e0e6&gt;
+        &lt;th&gt;&lt;/th&gt;
+        &lt;th&gt;书名&lt;/th&gt;
+        &lt;th&gt;位置&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td align=&#39;center&#39; bgcolor=#e6e6fa&gt;1&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;&lt;a href=https://url36.ctfile.com/f/7823036-1469968582-379113?p=750732&gt;中级汽车维修工技能实训教材(潘向民)&lt;/a&gt;&lt;/td&gt;
+        &lt;td bgcolor=#f5fffa&gt;U472  汽车保养与修理&lt;/td&gt;
+   </description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.chinjua.com.cn/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
+      
+      
+      <category domain="https://www.chinjua.com.cn/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
+      
+      
+      <comments>https://www.chinjua.com.cn/2025-03-14/63295c7f.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2025-03-07  新增电子书</title>
@@ -29,7 +414,6 @@
           
           
       <description>&lt;p&gt;&lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/d/7823036-11625293-1def83?p=750732&quot; title=&quot;网盘总入口&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;网盘总入口&lt;/span&gt;&lt;/a&gt;&lt;/font&gt;&lt;br&gt;
-&lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/f/7823036-1467759565-fb5d60?p=750732&quot; title=&quot;电子书书目2025-3-7&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;电子书书目2025-3-7&lt;/span&gt;&lt;/a&gt;&lt;/font&gt;&lt;br&gt;
 &lt;font color=&quot;#000000&quot; size=5 face=&quot;微软雅黑&quot;&gt;文件访问密码: 750732&lt;/font&gt;&lt;/p&gt;
 &lt;h1&gt;B  哲学、宗教&lt;/h1&gt;
 &lt;table&gt;
@@ -2174,10 +2558,10 @@ x_{3,4}=&#92;dfrac{-s_{2} &#92;pm</description>
 &lt;li&gt;leg001.pdg 版权页&lt;/li&gt;
 &lt;li&gt;fow001.pdg 前言页&lt;/li&gt;
 &lt;li&gt;!00001.pdg 目录页&lt;/li&gt;
-&lt;li&gt;000001.pdg 正文页&lt;br&gt;
-&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如果压缩包内只有正文页，没有其他页面，可使用&lt;/font&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/f/7823036-518824610-7d054c?p=750732&quot; title=&quot;获取封面&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;获取封面&lt;/span&gt;&lt;/a&gt; &lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;软件进行下载&lt;/font&gt;&lt;br&gt;
-&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;登录&lt;a href=&quot;http://www.ucdrs.superlib.net/&quot;&gt;全国图书馆参考咨询联盟&lt;/a&gt;网站，搜索书籍，搜到之后进入书籍的详情页面&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;000001.pdg 正文页&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;如果压缩包内只有正文页，没有其他页面，可使用&lt;/font&gt; &lt;a class=&quot;btn-beautify green&quot; href=&quot;https://url36.ctfile.com/f/7823036-518824610-7d054c?p=750732&quot; title=&quot;获取封面&quot;&gt;&lt;i class=&quot;far fa-hand-point-right&quot;&gt;&lt;/i&gt;&lt;span&gt;获取封面&lt;/span&gt;&lt;/a&gt; &lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;软件进行下载&lt;/font&gt;&lt;br&gt;
+&lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;登录&lt;a href=&quot;http://www.ucdrs.superlib.net/&quot;&gt;全国图书馆参考咨询联盟&lt;/a&gt;网站，搜索书籍，搜到之后进入书籍的详情页面&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/01/21/pEApldK.png&quot; alt=&quot;图书馆联盟&quot;&gt;&lt;br&gt;
 &lt;font color=&quot;#000000&quot; size=4 face=&quot;微软雅黑&quot;&gt;在页面右边点击“版权页”，会跳出一个页面&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://s21.ax1x.com/2025/01/21/pEApQZ6.png&quot; alt=&quot;试读页&quot;&gt;&lt;br&gt;
